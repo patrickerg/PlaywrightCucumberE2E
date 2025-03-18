@@ -45,10 +45,10 @@ When("Enter valid details and Place the Order", async function () {
   console.log(this.orderId);
 });
 
-// After hook to close the browser
-After(async function () {
-  if (browser) {
-    console.log("Closing the browser...");
-    await browser.close();
-  }
-});
+// // After hook to close the browser
+// After(async function () {
+//   if (browser) {
+//     console.log("Closing the browser...");
+//     await browser.close();
+//   }
+// });
